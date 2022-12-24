@@ -1,0 +1,73 @@
+:root {
+    --title-text-color: #434455;
+    --accent-color: #2E2F42;
+}
+
+.page {
+    background-color: #FFFFFF;
+    color: var(--title-text-color);
+}
+
+/* delet dot */
+.list {list-style: none;}
+
+/* header */
+.logo {
+    color: var(--accent-color);
+}
+.logo-web {
+    color: #4D5AE5;
+}
+
+/* site-nav */
+.site-nav .link {color: var(--accent-color);}
+.site-nav .link:hover, 
+.site-nav .link:focus {
+    color: #4D5AE5;}
+.site-nav .link.current {color: #4D5AE5;}
+
+/* info-nav */
+.info-nav .adress {color: var(--title-text-color);}
+.info-nav .adress:hover,
+.info-nav .adress:focus {
+    color: #4D5AE5;
+}
+
+
+
+/* title */
+.section-title {color: var(--accent-color);}
+
+
+/* hero */
+.hero {background-color: var(--accent-color);}
+.hero-title { color: #FFFFFF;}
+.hero-button {
+    background-color: #4D5AE5; color: #FFFFFF;}
+
+/* skills */
+.feature .title {color: var(--accent-color);}
+
+/* team */
+.section-team {background-color: #F4F4FD;}
+.team .title {color: var(--accent-color);}
+
+/* footer */
+.footer {
+    background-color: var(--accent-color);
+    color: #E7E9FC;}
+.footer .logo {color: #F4F4FD;}
+
+
+
+/* portfolio */
+.p-button {
+    background-color: #E7E9FC;
+    color: #4D5AE5;
+}
+.p-button:hover, .p-button:focus {
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+}
+
+.port-title {color: var(--accent-color);}
