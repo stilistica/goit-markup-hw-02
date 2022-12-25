@@ -32,6 +32,7 @@ Roboto 400 500 700
     font-weight: 800;
     font-size: 18px;
     line-height: 24px;
+    text-decoration: none;
 }
 .logo-web {
     color: #4D5AE5;
@@ -43,7 +44,8 @@ Roboto 400 500 700
     color: var(--accent-color);
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.5;}
+    line-height: 1.5;
+    text-decoration: none;}
 .site-nav .link:hover, 
 .site-nav .link:focus {
     color: #4D5AE5;}
@@ -53,7 +55,8 @@ Roboto 400 500 700
 .info-nav .adress {color: var(--title-text-color);
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.5;}
+    line-height: 1.5;
+    text-decoration: none;}
 .info-nav .adress:hover,
 .info-nav .adress:focus {
     color: #4D5AE5;
